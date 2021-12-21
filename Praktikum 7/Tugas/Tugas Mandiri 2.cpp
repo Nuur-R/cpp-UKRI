@@ -12,7 +12,7 @@ main()
     kecepatan = 3;
     waktu = 1;
     jarak = 3;
-    while (jarak <= 100)
+    while (jarak < 100)
     {
         printf("%i = %im\n", waktu, jarak); 
         waktu++;
@@ -22,12 +22,11 @@ main()
             A++;
             kecepatan++;
             printf("keceptan laju menjadi %im/detik\n",kecepatan);
-        }
+        }        
         if (jarak == 100)
         {
             printf("untuk mencapai jarak 100m kita memerlukan %i detik", waktu);
         }
-        
     }
     
     return 0;
